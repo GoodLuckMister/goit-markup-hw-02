@@ -5,6 +5,10 @@
   --color-decor: #2196f3;
   --color-back: #2f303a;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* section header and navigation */
 
 /* ===logotipe styles==== */
 .logo {
@@ -33,4 +37,16 @@
 .link:focus {
   color: var(--color-decor);
 }
-/* ==hero text=== */
+/* section business  */
+/* =====text styles====== */
+.business_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--color-text);
+}
