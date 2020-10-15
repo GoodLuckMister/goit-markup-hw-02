@@ -1,0 +1,36 @@
+:root {
+  --color-text: #212121;
+  --color-text-decor: #ffffff;
+  --color-text-mini: #757575;
+  --color-decor: #2196f3;
+  --color-back: #2f303a;
+}
+
+/* ===logotipe styles==== */
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--color-decor);
+  text-decoration: none;
+}
+.logo-decore {
+  color: var(--color-text);
+}
+
+/*==== Style links navigation==== */
+.link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.88;
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--color-decor);
+}
+/* ==hero text=== */
