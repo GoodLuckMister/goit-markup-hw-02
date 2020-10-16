@@ -17,15 +17,15 @@
           Web<span class="logo-decore">Studio</span>
         </a>
         <nav>
-          <ul>
-            <li><a class="link" href="./index.html">Студия</a></li>
-            <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="link" href="#footer">Контакты</a></li>
+          <ul class="nav_list">
+            <li class="nav_items"><a class="link" href="./index.html">Студия</a></li>
+            <li class="nav_items"><a class="link" href="./portfolio.html">Портфолио</a></li>
+            <li class="nav_items"><a class="link" href="#footer">Контакты</a></li>
           </ul>
         </nav>
-        <ul>
-          <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="nav_list">
+          <li class="nav_items"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="nav_items"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -33,37 +33,38 @@
 
     <section>
       <div class="hero-container">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="hero-title">Эффективные решения <span class="hero_title">для вашего бизнеса</span></h1>
         <!-- <img src="./images/squoosh/Bg.jpg" alt="backgroung-image" /> -->
-        <button type="button">Заказать услугу</button>
+        <button type="button" class="button">Заказать услугу</button>
       </div>
     </section>
     <!--========================section business==========================-->
 
     <section>
-      <ul>
-        <li>
+      <div class="business_box">
+      <ul class="business-list">
+        <li class="business_items">
           <h2 class="business_title">Внимание к деталям</h2>
           <p class="business-text">
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
         </li>
-        <li>
+        <li class="business_items">
           <h2 class="business_title">Пунктуальность</h2>
           <p class="business-text">
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
           </p>
         </li>
-        <li>
+        <li class="business_items">
           <h2 class="business_title">Планирование</h2>
           <p class="business-text">
             Равным образом консультация с широким активом в значительной степени
             обуславливает.
           </p>
         </li>
-        <li>
+        <li class="business_items">
           <h2 class="business_title">Современные технологии</h2>
           <p class="business-text">
             Значимость этих проблем настолько очевидна, что реализация плановых
@@ -71,63 +72,66 @@
           </p>
         </li>
       </ul>
-      <h3>Чем мы занимаемся</h3>
-      <ul>
-        <li>
+      <h3 class="business-title"> Чем мы занимаемся</h3>
+      <ul class="business-img_list">
+        <li class="business-img">
           <img src="./images/squoosh/noot1.jpg" alt="noot1" width="370" />
         </li>
-        <li><img src="./images/squoosh/noot.jpg" alt="noot" width="370" /></li>
-        <li>
+        <li class="business-img"><img src="./images/squoosh/noot.jpg" alt="noot" width="370" /></li>
+        <li class="business-img">
           <img src="./images/squoosh/noot2.jpg" alt="noot2" width="370" />
         </li>
       </ul>
+      </div>
     </section>
     <!--========================section team==============================-->
 
     <section>
-      <h2>Наша команда</h2>
-      <ul>
-        <li>
+      <div class="team_box">
+      <h2 class="business-title">Наша команда</h2>
+      <ul class="team-list">
+        <li class="team-items">
           <img src="./images/squoosh/igor.jpg" alt="igor" width="270" />
-          <h3>Игорь Демьяненко</h3>
-          <p>Product Designer</p>
+          <h3 class="team_title">Игорь Демьяненко</h3>
+          <p class="team_text">Product Designer</p>
         </li>
-        <li>
+        <li class="team-items">
           <img src="./images/squoosh/olga.jpg" alt="olga" width="270" />
-          <h3>Ольга Репина</h3>
-          <p>Frontend Developer</p>
+          <h3 class="team_title">Ольга Репина</h3>
+          <p class="team_text">Frontend Developer</p>
         </li>
-        <li>
+        <li class="team-items">
           <img src="./images/squoosh/nikolay.jpg" alt="nikolay" width="270" />
-          <h3>Николай Тарасов</h3>
-          <p>Marketing</p>
+          <h3 class="team_title">Николай Тарасов</h3>
+          <p class="team_text">Marketing</p>
         </li>
-        <li>
+        <li class="team-items">
           <img src="./images/squoosh/mihail.jpg" alt="mihail" width="270" />
-          <h3>Михаил Ермаков</h3>
-          <p>UI Designer</p>
+          <h3 class="team_title">Михаил Ермаков</h3>
+          <p class="team_text">UI Designer</p>
         </li>
       </ul>
+      </div>
     </section>
     <!--=========================footer=============================== -->
     <footer id="footer">
-      <div>
+      <div class="footer_box">
         <a class="logo" href="./index.html">
-          Web<span class="logo-decore">Studio</span>
+          Web<span class="logo-decore-footer">Studio</span>
         </a>
 
         <address>
-          <ul>
-            <li>
-              <a
+          <ul >
+            <li class="address-items">
+              <a class="footer_address"
                 href="https://goo.gl/maps/5dLGJM3JufGwCpMH7"
                 target="_blank"
                 rel="noopener noreferer "
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com </a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="address-items"><a class="footer_link" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
+            <li class="address-items"><a class="footer_link" href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
         </address>
       </div>
