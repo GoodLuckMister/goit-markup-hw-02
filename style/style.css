@@ -1,3 +1,10 @@
+body {
+  font-style: Roboto, sans-serif;
+}
+ul {
+  list-style: none;
+}
+
 :root {
   --color-text: #212121;
   --color-text-decor: #ffffff;
