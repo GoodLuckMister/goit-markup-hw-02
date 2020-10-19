@@ -11,6 +11,7 @@ ul {
   --color-text-mini: #757575;
   --color-decor: #2196f3;
   --color-back: #2f303a;
+  --button-link: #f5f4fa;
 }
 
 /* ===logotipe styles==== */
@@ -40,4 +41,87 @@ ul {
 .link:focus {
   color: var(--color-decor);
 }
-/* ==hero text=== */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 0.7;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: var(--color-decor);
+  color: var(--color-text-decor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.business_list_title {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.88;
+  text-transform: uppercase;
+}
+.business_list_text {
+  font-size: 14px;
+  line-height: 0.6;
+  letter-spacing: 0.03em;
+  color: var(--color-text-mini);
+}
+.other_title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 0.9;
+  letter-spacing: 0.03em;
+}
+.team_list_title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.8;
+  letter-spacing: 0.03em;
+}
+.team_list_text {
+  font-size: 16px;
+  line-height: 0.8;
+  letter-spacing: 0.03em;
+  color: var(--color-text-mini);
+}
+.address_list_link {
+  font-size: 14px;
+  line-height: 0.6;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+}
+.filter_title {
+  display: none;
+}
+.filter_list_link {
+  display: block;
+  padding: 6px 22px;
+  background-color: var(--button-link);
+  color: var(--color-text);
+  border-radius: 4px;
+  text-decoration: none;
+}
+.filter_list_link:hover,
+.filter_list_link:focus {
+  background-color: var(--color-decor);
+  color: var(--color-text-decor);
+}
+.portfolio_list_title {
+  font-size: 18px;
+  line-height: 0.5;
+  letter-spacing: 0.06em;
+  color: var(--color-text);
+}
+.portfolio_list_text {
+  font-size: 16px;
+  line-height: 0.5;
+  letter-spacing: 0.03em;
+  color: var(--color-text-mini);
+}
+.portfolio_list_link {
+  text-decoration: none;
+}
