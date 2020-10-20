@@ -26,6 +26,12 @@ ul {
 .logo-decore {
   color: var(--color-text);
 }
+.logo-footer {
+  color: var(--color-decor);
+}
+.logo-footer-decor {
+  color: var(--color-text-decor);
+}
 
 /*==== Style links navigation==== */
 .link {
@@ -40,6 +46,18 @@ ul {
 .link:hover,
 .link:focus {
   color: var(--color-decor);
+}
+.link_activ {
+  color: var(--color-decor);
+}
+
+.link_nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--color-text-mini);
+  text-decoration: none;
 }
 
 .hero-title {
@@ -87,13 +105,19 @@ ul {
   letter-spacing: 0.03em;
   color: var(--color-text-mini);
 }
+
 .address_list_link {
   font-size: 14px;
   line-height: 0.6;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
+  color: var(--color-text-mini);
 }
+.address_list_link-map {
+  color: var(--color-text-decor);
+}
+
 .filter_title {
   display: none;
 }
@@ -103,6 +127,7 @@ ul {
   background-color: var(--button-link);
   color: var(--color-text);
   border-radius: 4px;
+  cursor: pointer;
   text-decoration: none;
 }
 .filter_list_link:hover,
@@ -124,4 +149,7 @@ ul {
 }
 .portfolio_list_link {
   text-decoration: none;
+}
+.footer_box {
+  background-color: var(--color-back);
 }
